@@ -1,0 +1,70 @@
+/* Inter Font Import from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;950&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  
+  /* Modern Premium HSL Brand Colors */
+  --color-brand-50: hsl(220, 100%, 97%);
+  --color-brand-100: hsl(220, 100%, 93%);
+  --color-brand-200: hsl(220, 100%, 86%);
+  --color-brand-300: hsl(220, 100%, 75%);
+  --color-brand-400: hsl(220, 100%, 60%);
+  --color-brand-500: hsl(224, 89%, 48%); /* Primary Corporate Blue */
+  --color-brand-600: hsl(224, 89%, 40%);
+  --color-brand-700: hsl(224, 89%, 32%);
+  --color-brand-800: hsl(224, 89%, 24%);
+  --color-brand-900: hsl(224, 89%, 16%);
+  
+  /* Elegant Accent Colors (e.g., Green for Verified, Red for Error) */
+  --color-verified-bg: hsl(142, 72%, 95%);
+  --color-verified-text: hsl(142, 76%, 25%);
+  --color-verified-border: hsl(142, 72%, 80%);
+  --color-verified-icon: hsl(142, 72%, 29%);
+
+  --color-error-bg: hsl(0, 84%, 97%);
+  --color-error-text: hsl(0, 72%, 35%);
+  --color-error-border: hsl(0, 84%, 89%);
+
+  /* Animation overrides */
+  --animate-fade-in: fade-in 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(8px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: linear-gradient(to right, #291749, #133273);
+    color: #0f172a; /* Slate 900 */
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom Font-weight utilities for extra premium font look */
+.font-black {
+  font-weight: 950;
+}
+
+.text-xxs {
+  font-size: 0.65rem;
+}
+
+.text-xxs {
+  font-size: 0.65rem;
+}
