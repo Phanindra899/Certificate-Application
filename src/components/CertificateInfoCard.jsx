@@ -7,11 +7,13 @@ export default function CertificateInfoCard({ student }) {
       <h3 className="text-[#0d47a1] text-base sm:text-lg font-bold tracking-tight px-1">
         Course Details
       </h3>
+
       {/* Thin Blue Divider */}
       <div className="border-b-2 border-blue-600 w-full mb-3"></div>
 
       {/* Grid of info elements */}
       <div className="grid grid-cols-1 gap-3 sm:grid-cols-3">
+
         {/* Course Name */}
         <div className="rounded-xl border border-slate-200 bg-white p-4 shadow-sm">
           <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider">
@@ -48,9 +50,10 @@ export default function CertificateInfoCard({ student }) {
             Company Name
           </span>
           <span className="mt-1 block text-sm font-bold text-[#1e3a8a]">
-            {student.company}
+            {student.companyName}
           </span>
         </div>
+
       </div>
     </div>
   );
