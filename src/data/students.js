@@ -31,7 +31,54 @@ export const students = [
     startDate: "06 May 2026",
     endDate: "01 July 2026",
     verificationDate: "06 May 2026"
-  }
+  },
+  {
+  verificationId: "CITS5823",
+  studentName: "K. Pomani",
+
+  courseName: "Python Full Stack",
+  category: "Internship",
+
+  companyName: "CODTECH IT SOLUTIONS PRIVATE LIMITED",
+
+  certificateType: "Offer Letter",
+
+  duration: "8 Weeks",
+
+  startDate: "06 May 2026",
+  endDate: "01 July 2026",
+
+  verificationDate: "06 May 2026",
+
+  status: "Verified",
+
+  remarks:
+    "Demonstrated strong dedication, technical skills, and a positive learning attitude throughout the internship. Successfully completed all assigned tasks with consistency and professionalism."
+},
+
+{
+  verificationId: "CITS9210",
+  studentName: "C. Ganesh",
+
+  courseName: "Python Full Stack",
+  category: "Internship",
+
+  companyName: "CODTECH IT SOLUTIONS PRIVATE LIMITED",
+
+  certificateType: "Offer Letter",
+
+  duration: "8 Weeks",
+
+  startDate: "06 May 2026",
+  endDate: "01 July 2026",
+
+  verificationDate: "06 May 2026",
+
+  status: "Verified",
+
+  remarks:
+    "Demonstrated strong dedication, technical skills, and a positive learning attitude throughout the internship. Successfully completed all assigned tasks with consistency and professionalism."
+},
 ];
 
 export function findStudentById(verificationId) {
