@@ -15,7 +15,7 @@ export default function VerificationCard({ student }) {
       {/* 1. Top Gradient Banner */}
       <div className="bg-gradient-to-r from-[#4a148c] via-[#311b92] to-[#1565c0] py-8 px-6 text-center text-white">
         <h1 className="text-xl sm:text-2xl font-bold tracking-tight">
-  ✓ Valid Verified
+  ✓ Valid Certificate Verified
 </h1>
         {/* 2. Verified Badge */}
         <div className="mt-3 flex justify-center">
