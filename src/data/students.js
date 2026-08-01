@@ -123,5 +123,28 @@ export function findStudentById(verificationId) {
     (student) =>
       student.verificationId.trim().toUpperCase() ===
       verificationId.trim().toUpperCase()
-  );
+  ),
+  {
+  verificationId: "CITS4836",
+  studentName: "Shiva Shankar",
+
+  courseName: "VLSI",
+  category: "Internship",
+
+  companyName: "CODTECH IT SOLUTIONS PRIVATE LIMITED",
+
+  certificateType: "Offer Letter",
+
+  duration: "8 Weeks",
+
+  startDate: "06 May 2026",
+  endDate: "01 July 2026",
+
+  verificationDate: "06 May 2026",
+
+  status: "Verified",
+
+  remarks:
+    "Demonstrated strong dedication, technical skills, and a positive learning attitude throughout the internship. Successfully completed all assigned tasks with consistency and professionalism."
+};
 }
