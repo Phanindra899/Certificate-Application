@@ -114,17 +114,7 @@ export const students = [
   endDate: "01 July 2026",
   verificationDate: "06 May 2026"
 },
-];
-
-export function findStudentById(verificationId) {
-  if (!verificationId) return undefined;
-
-  return students.find(
-    (student) =>
-      student.verificationId.trim().toUpperCase() ===
-      verificationId.trim().toUpperCase()
-  ),
-  {
+{
   verificationId: "CITS4836",
   studentName: "Shiva Shankar",
 
@@ -146,5 +136,15 @@ export function findStudentById(verificationId) {
 
   remarks:
     "Demonstrated strong dedication, technical skills, and a positive learning attitude throughout the internship. Successfully completed all assigned tasks with consistency and professionalism."
-};
+}
+];
+
+export function findStudentById(verificationId) {
+  if (!verificationId) return undefined;
+
+  return students.find(
+    (student) =>
+      student.verificationId.trim().toUpperCase() ===
+      verificationId.trim().toUpperCase()
+  )
 }
