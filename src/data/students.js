@@ -143,7 +143,7 @@ export const students = [
 
   {
     verificationId: "CITS7364",
-    studentName: "Y.Nitya Reddy",
+    studentName: "Yadiki Nitya Reddy",
 
     courseName: "Python Full Stack",
     category: "Internship",
