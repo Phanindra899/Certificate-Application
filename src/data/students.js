@@ -32,111 +32,138 @@ export const students = [
     endDate: "01 July 2026",
     verificationDate: "06 May 2026"
   },
+
   {
-  verificationId: "CITS5823",
-  studentName: "K. Pomani",
+    verificationId: "CITS5823",
+    studentName: "K. Pomani",
 
-  courseName: "Python Full Stack",
-  category: "Internship",
+    courseName: "Python Full Stack",
+    category: "Internship",
 
-  companyName: "CODTECH IT SOLUTIONS PRIVATE LIMITED",
+    companyName: "CODTECH IT SOLUTIONS PRIVATE LIMITED",
 
-  certificateType: "Offer Letter",
+    certificateType: "Offer Letter",
 
-  duration: "8 Weeks",
+    duration: "8 Weeks",
 
-  startDate: "06 May 2026",
-  endDate: "01 July 2026",
+    startDate: "06 May 2026",
+    endDate: "01 July 2026",
 
-  verificationDate: "06 May 2026",
+    verificationDate: "06 May 2026",
 
-  status: "Verified",
+    status: "Verified",
 
-  remarks:
-    "Demonstrated strong dedication, technical skills, and a positive learning attitude throughout the internship. Successfully completed all assigned tasks with consistency and professionalism."
-},
+    remarks:
+      "Demonstrated strong dedication, technical skills, and a positive learning attitude throughout the internship. Successfully completed all assigned tasks with consistency and professionalism."
+  },
 
-{
-  verificationId: "CITS9210",
-  studentName: "C. Ganesh",
+  {
+    verificationId: "CITS9210",
+    studentName: "C. Ganesh",
 
-  courseName: "Python Full Stack",
-  category: "Internship",
+    courseName: "Python Full Stack",
+    category: "Internship",
 
-  companyName: "CODTECH IT SOLUTIONS PRIVATE LIMITED",
+    companyName: "CODTECH IT SOLUTIONS PRIVATE LIMITED",
 
-  certificateType: "Offer Letter",
+    certificateType: "Offer Letter",
 
-  duration: "8 Weeks",
+    duration: "8 Weeks",
 
-  startDate: "06 May 2026",
-  endDate: "01 July 2026",
+    startDate: "06 May 2026",
+    endDate: "01 July 2026",
 
-  verificationDate: "06 May 2026",
+    verificationDate: "06 May 2026",
 
-  status: "Verified",
+    status: "Verified",
 
-  remarks:
-    "Demonstrated strong dedication, technical skills, and a positive learning attitude throughout the internship. Successfully completed all assigned tasks with consistency and professionalism."
-},
-{
-  verificationId: "CITS6134",
-  studentName: "DUDEKULA KHAJA HUSSAIN",
-  courseName: "Data Analytics",
-  category: "Internship",
-  duration: "8 Weeks",
-  companyName: "CODTECH IT SOLUTIONS PRIVATE LIMITED",
-  startDate: "06 May 2026",
-  endDate: "01 July 2026",
-  verificationDate: "06 May 2026"
-},
+    remarks:
+      "Demonstrated strong dedication, technical skills, and a positive learning attitude throughout the internship. Successfully completed all assigned tasks with consistency and professionalism."
+  },
 
-{
-  verificationId: "CITS4278",
-  studentName: "GOLLA BHARATH",
-  courseName: "Data Analytics",
-  category: "Internship",
-  duration: "8 Weeks",
-  companyName: "CODTECH IT SOLUTIONS PRIVATE LIMITED",
-  startDate: "06 May 2026",
-  endDate: "01 July 2026",
-  verificationDate: "06 May 2026"
-},
+  {
+    verificationId: "CITS6134",
+    studentName: "DUDEKULA KHAJA HUSSAIN",
+    courseName: "Data Analytics",
+    category: "Internship",
+    duration: "8 Weeks",
+    companyName: "CODTECH IT SOLUTIONS PRIVATE LIMITED",
+    startDate: "06 May 2026",
+    endDate: "01 July 2026",
+    verificationDate: "06 May 2026"
+  },
 
-{
-  verificationId: "CITS8951",
-  studentName: "Jakkala Raju",
-  courseName: "Data Analytics",
-  category: "Internship",
-  duration: "8 Weeks",
-  companyName: "CODTECH IT SOLUTIONS PRIVATE LIMITED",
-  startDate: "06 May 2026",
-  endDate: "01 July 2026",
-  verificationDate: "06 May 2026"
-},
-{
-  verificationId: "CITS4836",
-  studentName: "Shiva Shankar",
+  {
+    verificationId: "CITS4278",
+    studentName: "GOLLA BHARATH",
+    courseName: "Data Analytics",
+    category: "Internship",
+    duration: "8 Weeks",
+    companyName: "CODTECH IT SOLUTIONS PRIVATE LIMITED",
+    startDate: "06 May 2026",
+    endDate: "01 July 2026",
+    verificationDate: "06 May 2026"
+  },
 
-  courseName: "VLSI",
-  category: "Internship",
+  {
+    verificationId: "CITS8951",
+    studentName: "Jakkala Raju",
+    courseName: "Data Analytics",
+    category: "Internship",
+    duration: "8 Weeks",
+    companyName: "CODTECH IT SOLUTIONS PRIVATE LIMITED",
+    startDate: "06 May 2026",
+    endDate: "01 July 2026",
+    verificationDate: "06 May 2026"
+  },
 
-  companyName: "CODTECH IT SOLUTIONS PRIVATE LIMITED",
+  {
+    verificationId: "CITS4836",
+    studentName: "Shiva Shankar",
 
-  certificateType: "Offer Letter",
+    courseName: "VLSI",
+    category: "Internship",
 
-  duration: "8 Weeks",
+    companyName: "CODTECH IT SOLUTIONS PRIVATE LIMITED",
 
-  startDate: "06 May 2026",
-  endDate: "01 July 2026",
+    certificateType: "Offer Letter",
 
-  verificationDate: "06 May 2026",
+    duration: "8 Weeks",
 
-  status: "Verified",
+    startDate: "06 May 2026",
+    endDate: "01 July 2026",
 
-  remarks:
-    "Demonstrated strong dedication, technical skills, and a positive learning attitude throughout the internship. Successfully completed all assigned tasks with consistency and professionalism."
-}
+    verificationDate: "06 May 2026",
+
+    status: "Verified",
+
+    remarks:
+      "Demonstrated strong dedication, technical skills, and a positive learning attitude throughout the internship. Successfully completed all assigned tasks with consistency and professionalism."
+  },
+
+  {
+    verificationId: "CITS7364",
+    studentName: "Y.Nitya Reddy",
+
+    courseName: "Python Full Stack",
+    category: "Internship",
+
+    companyName: "CODTECH IT SOLUTIONS PRIVATE LIMITED",
+
+    certificateType: "Offer Letter",
+
+    duration: "8 Weeks",
+
+    startDate: "06 May 2026",
+    endDate: "01 July 2026",
+
+    verificationDate: "06 May 2026",
+
+    status: "Verified",
+
+    remarks:
+      "Demonstrated strong dedication, technical skills, and a positive learning attitude throughout the internship. Successfully completed all assigned tasks with consistency and professionalism."
+  }
 ];
 
 export function findStudentById(verificationId) {
@@ -146,5 +173,5 @@ export function findStudentById(verificationId) {
     (student) =>
       student.verificationId.trim().toUpperCase() ===
       verificationId.trim().toUpperCase()
-  )
+  );
 }
