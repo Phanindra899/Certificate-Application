@@ -92,6 +92,7 @@ export const students = [
     endDate: "01 July 2026",
     verificationDate: "06 May 2026"
   },
+   
 
   {
     verificationId: "CITS4278",
@@ -104,7 +105,20 @@ export const students = [
     endDate: "01 July 2026",
     verificationDate: "06 May 2026"
   },
-
+  {
+  verificationId: "CITS5890",
+  studentName: "Nandyala Prasanth Yadav",
+  courseName: "Data Analytics",
+  category: "Internship",
+  duration: "8 Weeks",
+  companyName: "CODTECH IT SOLUTIONS PRIVATE LIMITED",
+  certificateType: "Offer Letter",
+  status: "Verified",
+  startDate: "06 May 2026",
+  endDate: "01 July 2026",
+  verificationDate: "06 May 2026",
+  remarks: "Demonstrated strong dedication, technical skills, and a positive learning attitude throughout the internship. Successfully completed all assigned tasks with consistency and professionalism."
+},
   {
     verificationId: "CITS8951",
     studentName: "Jakkala Raju",
